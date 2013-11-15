@@ -40,13 +40,14 @@ li {
 /*   Type      */
 /**************************/
 
-span {
-	font-size: 1em;
-}
-
 h1 {
 	font-size: 1em;
 	color: #bdbdbd;
+}
+
+h1 span {
+	font-size: 1.4em;
+	color: #585858;
 }
 
 #logo {
@@ -106,8 +107,9 @@ img {
 }
 
 #title {
-	text-align: center;
-	clear: right;
+	padding-left: 60px;
+	padding-top: 24px;
+	float: left;
 }
 
 /**************************/
