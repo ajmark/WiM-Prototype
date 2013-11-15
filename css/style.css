@@ -20,28 +20,46 @@ header {
 }
 
 nav {
-	background-color: #701c81;
-	height: 3em;
+
 }
 
 ul {
-	width:80%;
-	margin:0 auto;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
 }
 
 li {
-	padding: 0.5em 2em 0.5em 2em;
 	list-style-type: none;
-	display: inline-block;
-	height: 2em;
+	display: table-cell;
+	vertical-align: middle;
 }
+
+/**************************/
+/*   Type      */
+/**************************/
+
+span {
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 1em;
+	color: #bdbdbd;
+}
+
 
 /**************************/
 /*   Nav      */
 /**************************/
 
-nav a {
+nav ul li a {
 	font-size: 0.8em;
+    text-align: center;
+    margin: 0 5px;
+    display: block;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #home{
@@ -66,14 +84,38 @@ nav a {
 	background-color: #ac165e;
 }
 
+#fixed-bar{
+	background-color: #701c81;
+	height: 3em;
+	width:100%;
+	position: absolute;
+	top:100px;
+}
 
+/**************************/
+/*   Header      */
+/**************************/
+
+img {
+	float: left;
+}
+
+#title {
+	text-align: center;
+	clear: right;
+}
 
 /**************************/
 /*   Index      */
 /**************************/
 
-.container {
+.wrapper {
 	background-color: white;
 	max-width: 80%; 
-	margin-left: 10%;
+	margin: 0 auto;
+}
+
+.container {
+	width:960px;
+	margin: 0 auto;
 }
