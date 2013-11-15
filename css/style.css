@@ -1,7 +1,79 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
-body {
+/**************************/
+/*    HTML Elements      */
+/**************************/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
 	background-color: #d0d0d0;
 	font-family: 'Open Sans', sans-serif;
 	color: #ffffff;
+}
+
+header {
+	background-color: white;
+}
+
+nav {
+	background-color: #701c81;
+	height: 3em;
+}
+
+ul {
+	width:80%;
+	margin:0 auto;
+}
+
+li {
+	padding: 0.5em 2em 0.5em 2em;
+	list-style-type: none;
+	display: inline-block;
+	height: 2em;
+}
+
+/**************************/
+/*   Nav      */
+/**************************/
+
+nav a {
+	font-size: 0.8em;
+}
+
+#home{
+	background-color: #701c81;
+}
+#about{
+	background-color: #2a61c6;
+}
+#events{
+	background-color: #20b0e6;
+}
+#pdev{
+	background-color: #17a45c;
+}
+#resc{
+	background-color: #83b805;
+}
+#members{
+	background-color: #dd9311;
+}
+#contact{
+	background-color: #ac165e;
+}
+
+
+
+/**************************/
+/*   Index      */
+/**************************/
+
+.container {
+	background-color: white;
+	max-width: 80%; 
+	margin-left: 10%;
 }
