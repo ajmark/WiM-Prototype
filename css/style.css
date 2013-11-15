@@ -1,1 +1,121 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+/**************************/
+/*    HTML Elements      */
+/**************************/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	background-color: #d0d0d0;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+header {
+	background-color: white;
+}
+
+nav {
+
+}
+
+ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+li {
+	list-style-type: none;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/**************************/
+/*   Type      */
+/**************************/
+
+span {
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 1em;
+	color: #bdbdbd;
+}
+
+
+/**************************/
+/*   Nav      */
+/**************************/
+
+nav ul li a {
+	font-size: 0.8em;
+    text-align: center;
+    margin: 0 5px;
+    display: block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#home{
+	background-color: #701c81;
+}
+#about{
+	background-color: #2a61c6;
+}
+#events{
+	background-color: #20b0e6;
+}
+#pdev{
+	background-color: #17a45c;
+}
+#resc{
+	background-color: #83b805;
+}
+#members{
+	background-color: #dd9311;
+}
+#contact{
+	background-color: #ac165e;
+}
+
+#fixed-bar{
+	background-color: #701c81;
+	height: 3em;
+	width:100%;
+	position: absolute;
+	top:100px;
+}
+
+/**************************/
+/*   Header      */
+/**************************/
+
+img {
+	float: left;
+}
+
+#title {
+	text-align: center;
+	clear: right;
+}
+
+/**************************/
+/*   Index      */
+/**************************/
+
+.wrapper {
+	background-color: white;
+	max-width: 80%; 
+	margin: 0 auto;
+}
+
+.container {
+	width:960px;
+	margin: 0 auto;
+}
