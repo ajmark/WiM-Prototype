@@ -1,3 +1,7 @@
+/*Creates the header information for every page.
+We decided to not use PHP includes to simplify the viewing process of the client
+so that they do not have to use a LAMP stack to view later
+*/
 $(document).ready(function() {
 	//Creates the top nav bar
 	$("header").append("<div id='interact'></div>");
