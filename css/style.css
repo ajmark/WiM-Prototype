@@ -16,7 +16,7 @@ html, body {
 }
 
 header {
-	padding-top: 20px
+
 }
 
 nav {
@@ -24,41 +24,50 @@ nav {
 	position: relative;
 }
 
-ul {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-}
-
-li {
-	list-style-type: none;
-	display: table-cell;
-	vertical-align: middle;
-}
 
 /**************************/
 /*   Type      */
 /**************************/
 
-h1 {
+h4 {
 	font-size: 1em;
 	color: #bdbdbd;
 }
 
-h1 span {
+h4 span {
 	font-size: 1.4em;
 	color: #585858;
 }
 
+h5 {
+	font-size:1em;
+	color: #bdbdbd;
+	font-weight: 300;
+}
+
 #logo {
 	height:100px;
+	padding-top:20px;
 }
 
 /**************************/
 /*   Nav      */
 /**************************/
 
-nav ul li a {
+#main-nav {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#main-nav li {
+	list-style-type: none;
+	display: table-cell;
+	vertical-align: middle;
+	border-right:solid 1px white;
+}
+
+#main-nav li a {
 	font-size: 0.8em;
     text-align: center;
     margin: 0 5px;
@@ -112,6 +121,11 @@ img {
 	float: left;
 }
 
+#interact{
+	float:right;
+	padding-right:2em;
+	padding-top:3px;
+}
 /**************************/
 /*   Index      */
 /**************************/
