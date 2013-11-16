@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 /**************************/
-/*    HTML Elements      */
+/*    HTML Elements & Template Layouts    */
 /**************************/
 
 * {
@@ -24,6 +24,18 @@ nav {
 	position: relative;
 }
 
+.wrapper {
+	background-color: white;
+	width: 1024px; 
+	margin: 0 auto;
+	background-color: white;
+	
+}
+
+.container {
+	width:960px;
+	margin: 0 auto;
+}
 
 /**************************/
 /*   Type      */
@@ -155,19 +167,11 @@ img {
     color: #4f4f4f;
     font-weight: 300;
 }
+
 /**************************/
 /*   Index      */
 /**************************/
 
-.wrapper {
-	background-color: white;
-	width: 1024px; 
-	margin: 0 auto;
-	background-color: white;
-	
-}
 
-.container {
-	width:960px;
-	margin: 0 auto;
-}
+
+
