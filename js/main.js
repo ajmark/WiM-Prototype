@@ -3,7 +3,10 @@ $(document).ready(function() {
 	$("header").append("<div id='interact'></div>");
 	$("#interact").append("<h5>Interact:</h5>");
 	$("#interact").append("<ul id='top-nav'></ul");
-	$("#top-nav").append("<li>Member Login</li>");
+	$("#top-nav").append("<li><a>Member Login</a></li>");
+	$("#top-nav").append("<li><a>Join</a></li>");
+	$("#top-nav").append("<li><a>Forums</a></li>");
+	$("#top-nav").append("<li><a>Blog</a></li>");
 	//Creates the logo
 	$("header").append("<div id='logo'></div>");
 	$("#logo").append("<img src='img-sprites/logo.gif'>");

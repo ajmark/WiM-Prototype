@@ -32,17 +32,21 @@ nav {
 h4 {
 	font-size: 1em;
 	color: #bdbdbd;
+	font-weight: 700;
 }
 
 h4 span {
 	font-size: 1.4em;
 	color: #585858;
+	font-weight: 700;
 }
 
 h5 {
 	font-size:1em;
 	color: #bdbdbd;
-	font-weight: 300;
+	font-weight: 400;
+	float:left;
+	padding-right:6px;
 }
 
 #logo {
@@ -123,8 +127,33 @@ img {
 
 #interact{
 	float:right;
-	padding-right:2em;
-	padding-top:3px;
+	position: relative;
+	display:block;
+}
+
+#top-nav {
+    display: table;
+    table-layout: fixed;
+    float:left;
+}
+
+#top-nav li {
+	list-style-type: none;
+	display: table-cell;
+	vertical-align: middle;
+	border-left:solid 1px white;
+	background-color: #b4b4b4;
+}
+
+#top-nav li a {
+	font-size: 0.8em;
+    text-align: center;
+    margin: 0 10px;
+    display: block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #4f4f4f;
+    font-weight: 300;
 }
 /**************************/
 /*   Index      */
