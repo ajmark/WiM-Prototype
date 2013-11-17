@@ -41,6 +41,11 @@ br {
 	margin: 0 auto;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
 /**************************/
 /*   Type      */
 /**************************/
@@ -216,8 +221,8 @@ h5 {
 #slide-info {
     padding-top: 25px;
     position: absolute;
-    right: 175px;
     width: 180px;
+    padding-left:760px;
 }
 
 #slide-button {
@@ -228,7 +233,6 @@ h5 {
 	color: white;
 	background-color: #886190;
 	border:1px white solid;
-	text-decoration: none;
 }
 
 .info-column {

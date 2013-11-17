@@ -7,10 +7,10 @@ $(document).ready(function() {
 	$("header").append("<div id='interact'></div>");
 	$("#interact").append("<h5>Interact:</h5>");
 	$("#interact").append("<ul id='top-nav'></ul");
-	$("#top-nav").append("<li><a>Member Login</a></li>");
-	$("#top-nav").append("<li><a>Join</a></li>");
-	$("#top-nav").append("<li><a>Forums</a></li>");
-	$("#top-nav").append("<li><a>Blog</a></li>");
+	$("#top-nav").append("<li><a href='#'>Member Login</a></li>");
+	$("#top-nav").append("<li><a href='#'>Join</a></li>");
+	$("#top-nav").append("<li><a href='#'>Forums</a></li>");
+	$("#top-nav").append("<li><a href='#'>Blog</a></li>");
 	//Creates search bar
 	$("header").append("<form id='search'></form>");
 	$("#search").append("<input type='text' class='input' placeholder='Search...'>");
@@ -21,11 +21,11 @@ $(document).ready(function() {
 	$("#title").append("<h4>Allegheney Health Network<br><span>Women in Medicine</span></h4>");
 	// Creates the main nav bar
     $("header").append("<nav><ul id='main-nav'></ul></nav>");
-    $("#main-nav").append("<li id='home'><a>Home</a></li>");
-    $("#main-nav").append("<li id='about'><a>About WiM</a></li>");
-    $("#main-nav").append("<li id='events'><a>Events</a></li>");
-    $("#main-nav").append("<li id='pdev'><a>Professional Development</a></li>");
-    $("#main-nav").append("<li id='resc'><a>Community Resources</a></li>");
-    $("#main-nav").append("<li id='members'><a>Members</a></li>");
-    $("#main-nav").append("<li id='contact'><a>Contact Us</a></li>");
+    $("#main-nav").append("<li id='home'><a href='#'>Home</a></li>");
+    $("#main-nav").append("<li id='about'><a href='#'>About WiM</a></li>");
+    $("#main-nav").append("<li id='events'><a href='#'>Events</a></li>");
+    $("#main-nav").append("<li id='pdev'><a href='#'>Professional Development</a></li>");
+    $("#main-nav").append("<li id='resc'><a href='#'>Community Resources</a></li>");
+    $("#main-nav").append("<li id='members'><a href='#'>Members</a></li>");
+    $("#main-nav").append("<li id='contact'><a href='#'>Contact Us</a></li>");
 });
