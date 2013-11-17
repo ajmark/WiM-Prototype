@@ -11,6 +11,9 @@ $(document).ready(function() {
 	$("#top-nav").append("<li><a>Join</a></li>");
 	$("#top-nav").append("<li><a>Forums</a></li>");
 	$("#top-nav").append("<li><a>Blog</a></li>");
+	//Creates search bar
+	$("header").append("<form id='search'></form>");
+	$("#search").append("<input type='text' class='input' placeholder='Search...'>");
 	//Creates the logo
 	$("header").append("<div id='logo'></div>");
 	$("#logo").append("<img src='img-sprites/logo.gif'>");

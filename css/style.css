@@ -168,6 +168,22 @@ img {
     font-weight: 300;
 }
 
+#search {
+	float: right;
+	clear:both;
+	padding-top:50px;
+}
+
+#search input {
+	padding-left: 15px
+}
+
+.input {
+	border: 1px solid #afafaf;
+	height:25px;
+}
+
+
 /**************************/
 /*   Index      */
 /**************************/
