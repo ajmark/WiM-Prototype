@@ -24,6 +24,10 @@ nav {
 	position: relative;
 }
 
+br {
+	line-height: 1em;
+}
+
 .wrapper {
 	background-color: white;
 	width: 1024px; 
@@ -40,6 +44,24 @@ nav {
 /**************************/
 /*   Type      */
 /**************************/
+
+h1 {
+	font-size:1.1em;
+	border-bottom: 1px solid #b7b7b7;
+	width:300px; 
+	color:#4e4e4e;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+p {
+	font-size: 0.6em;
+	font-weight:300;
+}
 
 h4 {
 	font-size: 1em;
@@ -64,6 +86,10 @@ h5 {
 #logo {
 	height:100px;
 	padding-top:20px;
+}
+
+#logo img {
+	float:left;
 }
 
 /**************************/
@@ -184,8 +210,31 @@ h5 {
 /**************************/
 
 #slide {
-	padding-top: 65px;
-	margin: 0 auto;
+	padding-top:50px;
+}
+
+#slide-info {
+    padding-top: 25px;
+    position: absolute;
+    right: 175px;
+    width: 180px;
+}
+
+#slide-button {
+	padding: 10px;
+	font-size:0.8em;
+	font-weight:400;
+	float: right;
+	color: white;
+	background-color: #886190;
+	border:1px white solid;
+	text-decoration: none;
+}
+
+.info-column {
+	color: #4e4e4e;
+	display:inline-block;
+	padding:25px 15px 40px 0;
 }
 
 
