@@ -127,10 +127,6 @@ h5 {
 /*   Header      */
 /**************************/
 
-img {
-	float: left;
-}
-
 #title {
 	padding-left: 60px;
 	padding-top: 24px;
@@ -183,11 +179,13 @@ img {
 	height:25px;
 }
 
-
 /**************************/
 /*   Index      */
 /**************************/
 
-
+#slide {
+	padding-top: 65px;
+	margin: 0 auto;
+}
 
 
