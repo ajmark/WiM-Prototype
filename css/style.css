@@ -50,6 +50,11 @@ a {
 /*   Type      */
 /**************************/
 
+p {
+	font-size: 0.8em;
+	font-weight:400;
+}
+
 h1 {
 	font-size:1.1em;
 	border-bottom: 1px solid #b7b7b7;
@@ -61,11 +66,6 @@ h1 {
 h2 {
 	font-size: 1em;
 	font-weight: 400;
-}
-
-p {
-	font-size: 0.6em;
-	font-weight:300;
 }
 
 h4 {
@@ -226,7 +226,7 @@ h5 {
 }
 
 #slide-button {
-	padding: 10px;
+	padding: 8px;
 	font-size:0.8em;
 	font-weight:400;
 	float: right;
@@ -235,10 +235,19 @@ h5 {
 	border:1px white solid;
 }
 
+#slide-button:hover {
+	opacity:0.8;
+}
+
 .info-column {
 	color: #4e4e4e;
 	display:inline-block;
 	padding:25px 15px 40px 0;
+}
+
+#slide-info p {
+	font-size: 0.6em;
+	font-weight:300;
 }
 
 
