@@ -6,6 +6,7 @@
 	padding-top: 60px;
 	padding-bottom: 30px;
 	width: 220px;
+	float:left;
 }
 
 .side-title {
@@ -33,6 +34,7 @@
 
 .inside-content {
 	width: 500px;
+	float:left;
 }
 
 .inside-content h1 {
