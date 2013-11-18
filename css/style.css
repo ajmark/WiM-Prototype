@@ -212,9 +212,6 @@ h5 {
 	padding:6px;
 }
 
-.dropdown.drop-about {
-	background: #2a61c6;
-}
 
 .dropdown ul {
 	list-style:none;
@@ -222,16 +219,25 @@ h5 {
 
 .dropdown li {
 	display: block !important;
+	border: none !important;
 }
 .dropdown li a {
 	text-align:left !important;
 	color:#fff;
 }
 
-#about:hover .dropdown {
+.dropdown li a:hover {
+	color:#C3C3C3;
+}
+
+#about:hover .dropdown, #events:hover .dropdown {
 	display: block;
 	position:absolute;
 	top:40px;
+}
+
+.dropdown.drop-about {
+	background: #2a61c6;
 }
 
 /**************************/
