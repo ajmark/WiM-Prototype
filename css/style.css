@@ -46,6 +46,10 @@ a {
 	color: white;
 }
 
+
+.clear {
+	clear:both;
+}
 /**************************/
 /*   Type      */
 /**************************/
@@ -154,6 +158,82 @@ h5 {
 	z-index: 1;
 }
 
+#active-tri {
+	height:25px;
+	width:100%;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+#active-tri.purple {
+	background: url(../img-sprites/tri-purple.png) no-repeat;
+	background-position: 60px 0px;
+}
+
+#active-tri.blue {
+	background: url(../img-sprites/tri-blue.png) no-repeat;
+	background-position: 198px 0px;
+}
+
+#active-tri.aqua {
+	background: url(../img-sprites/tri-aqua.png) no-repeat;
+	background-position: 335px 0px;
+}
+
+#active-tri.forest {
+	background: url(../img-sprites/tri-forest.png) no-repeat;
+	background-position: 471px 0px;
+}
+
+#active-tri.lime {
+	background: url(../img-sprites/tri-lime.png) no-repeat;
+	background-position: 607px 0px;
+}
+
+#active-tri.orange {
+	background: url(../img-sprites/tri-orange.png) no-repeat;
+	background-position: 743px 0px;
+}
+
+#active-tri.pink {
+	background: url(../img-sprites/tri-pink.png) no-repeat;
+	background-position: 879px 0px;
+}
+
+
+
+/*****************************************/
+/* DROPDOWNS */
+/* **************************************/
+
+.dropdown {
+	display:none;
+	width:200px;
+	padding:6px;
+}
+
+.dropdown.drop-about {
+	background: #2a61c6;
+}
+
+.dropdown ul {
+	list-style:none;
+}
+
+.dropdown li {
+	display: block !important;
+}
+.dropdown li a {
+	text-align:left !important;
+	color:#fff;
+}
+
+#about:hover .dropdown {
+	display: block;
+	position:absolute;
+	top:40px;
+}
+
 /**************************/
 /*   Header      */
 /**************************/
@@ -182,6 +262,14 @@ h5 {
 	vertical-align: middle;
 	border-left:solid 1px white;
 	background-color: #b4b4b4;
+}
+
+#top-nav li:hover {
+	background: #717171;
+}
+
+#top-nav li:hover a {
+	color: #C7C7C7;
 }
 
 #top-nav li a {
@@ -215,7 +303,7 @@ h5 {
 /**************************/
 
 #slide {
-	padding-top:50px;
+	padding-top:25px;
 }
 
 #slide-info {
