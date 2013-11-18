@@ -28,4 +28,11 @@ $(document).ready(function() {
     $("#main-nav").append("<li id='resc'><a href='#'>Community Resources</a></li>");
     $("#main-nav").append("<li id='members'><a href='#'>Members</a></li>");
     $("#main-nav").append("<li id='contact'><a href='#'>Contact Us</a></li>");
+	 
+	 
+	 var aboutdropdown = "<ul class='dropdown drop-about'><li><a href='#'>Mission and History</a></li><li><a href='#'>Program Administrators</a></li></ul>";
+	 
+	 
+	 $("#main-nav #about").append(aboutdropdown);
+	 
 });
