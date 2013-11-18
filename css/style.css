@@ -89,8 +89,8 @@ h5 {
 }
 
 #logo {
-	height:110px;
-	padding-top:15px;
+	height:100px;
+	padding-top:20px;
 }
 
 #logo img {
@@ -150,7 +150,7 @@ h5 {
 	height: 40px;
 	width:100%;
 	position: absolute;
-	top:125px;
+	top:120px;
 	z-index: 1;
 }
 
@@ -159,8 +159,8 @@ h5 {
 /**************************/
 
 #title {
-	padding-left: 40px;
-	padding-top: 22px;
+	padding-left: 60px;
+	padding-top: 24px;
 	float: left;
 }
 
@@ -193,10 +193,6 @@ h5 {
     padding-bottom: 2px;
     color: #4f4f4f;
     font-weight: 300;
-}
-
-#top-nav li a:hover {
-	color: #000000;	
 }
 
 #search {

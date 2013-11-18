@@ -1,0 +1,44 @@
+/**************************/
+/*   General Inside Layout      */
+/**************************/
+
+.side-nav {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	width: 220px;
+}
+
+.side-title {
+	padding-left:15px;
+}
+
+.side-nav ul {
+	display: table;
+	table-layout:fixed;
+}
+
+.side-nav ul li {
+	list-style-type: none; 
+	padding: 10px;
+	border-bottom: 1px solid #b7b7b7;
+}
+
+.side-nav ul li  a {
+	font-weight: 400;
+	color: #585858;
+	padding-left:20px;
+	text-align: center;
+}
+
+
+.inside-content {
+	width: 500px;
+}
+
+.inside-content h1 {
+	color: #585858;
+}
+
+.inside-content p {
+	color: #585858;
+}
