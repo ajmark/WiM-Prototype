@@ -35,8 +35,12 @@
 	font-size:13px;
 }
 
-.side-nav ul li + li:hover {
+.side-nav ul li.active {
 	background:#CBCBCB;
+}
+
+.side-nav ul li + li:hover a {
+	color: #000;	
 }
 
 

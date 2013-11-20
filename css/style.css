@@ -121,6 +121,10 @@ h5 {
 	height:42px;
 }
 
+#main-nav li:first-child {
+	border-left: solid 1px white;
+}
+
 #main-nav li a {
 	font-size: 0.9em;
     text-align: center;
@@ -158,7 +162,6 @@ h5 {
 }
 
 #fixed-bar{
-	background-color: #701c81;
 	height: 42px;
 	width:100%;
 	position: absolute;
@@ -372,6 +375,7 @@ h5 {
 	color: #4e4e4e;
 	display:inline-block;
 	padding:25px 15px 40px 0;
+	width:300px;
 }
 
 .info-column h1 {
@@ -423,6 +427,52 @@ h5 {
 }
 
 #upcoming-events article .date span {
+		display: block;
+		font-size:20px;
+		margin-top:4px;
+}
+
+/* Recent Blog Post */
+
+#lates-posts article {
+ width: 270px;
+ clear: both;
+ height:80px;
+ 
+}
+
+
+
+#latest-posts article .pic {
+	float: left;
+	width: 60px;
+	height: 60px; 
+	text-align: left;
+	font-size:13px;
+	padding-right:12px;
+
+}
+
+
+#latest-posts article h1, #latest-posts article p {
+	width: 200px;
+	border: none !important;
+	float: left;
+}
+
+#latest-posts article h1 a {
+	color:#333 !important;
+}
+
+#latest-posts article h1 a:hover {
+	color: #9526AB !important;
+}
+
+#latest-posts article p {
+	font-family:Arial, Helvetica;
+}
+
+#latest-posts article .date span {
 		display: block;
 		font-size:20px;
 		margin-top:4px;
