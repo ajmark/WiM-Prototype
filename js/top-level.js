@@ -48,6 +48,10 @@ $(document).ready(function() {
 	 $("#main-nav .nav-members").append(membersDropdown);
 
 
-	var footer = "<div class='copyright'>&copy; 2013 Allegheny Health Network. All Rights Reserved.</div>"
+	var footer = "<div class='copyright'>&copy; 2013 Allegheny Health Network. All Rights Reserved. <br /><a href='#'>Privacy Policy</a>  |  <a href='#'>Site Map</a>  |  <a href='#'>Contact Us</a></div>";
+	
+	var footNewsletter = "<div class='newsletter'>Join our newsletter:&nbsp;&nbsp;&nbsp;<input type='text' class='input' placeholder='Your Name' /><input type='text' class='input' placeholder='Your Email' /><input type='submit' class='submit' value='Join' /></div>";
+	
 	$("footer").append(footer);
+	$("footer").append(footNewsletter);
 });

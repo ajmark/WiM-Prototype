@@ -104,6 +104,18 @@ h5 {
 	float:left;
 }
 
+input.submit {
+	
+	border: 1px solid #999;
+	background: #A0BBC9;
+	color: #333;
+	padding: 4px;
+}
+
+
+input.submit:hover {
+	background: #CFE5F1;	
+}
 /**************************/
 /*   Nav      */
 /**************************/
@@ -540,4 +552,39 @@ footer {
 	font-family:Arial, Helvetica;
 	font-size:14px;
 	color: #666;
+	clear: both;
+	overflow: hidden;
 }
+
+
+footer .copyright {
+	float:left;
+}
+
+footer .copyright a {
+	line-height:28px;
+	font-size:12px;
+	color: #666;
+}
+
+footer .copyright a:hover {
+	color: #000;
+}
+
+footer .newsletter {
+	float: right;
+	width: 500px;
+}
+
+footer .newsletter input.input {
+	padding-left: 5px;
+	background: none !important;
+	margin-right: 5px;
+	color: #777777;	
+}
+
+footer .newsletter input.input:focus {
+	background: #fff !important;
+	color: #333;
+}
+
