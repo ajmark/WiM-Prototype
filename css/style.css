@@ -95,8 +95,9 @@ h5 {
 }
 
 #logo {
-	height:100px;
-	padding-top:20px;
+	height:105px;
+	padding-top:5px;
+	padding-bottom: 15px;
 }
 
 #logo img {
@@ -165,7 +166,7 @@ h5 {
 	height: 42px;
 	width:100%;
 	position: absolute;
-	top:120px;
+	top:125px;
 	z-index: 1;
 }
 
@@ -390,7 +391,7 @@ h5 {
 /* Upcoming Events */
 
 #upcoming-events article {
- width: 270px;
+ width: 290px;
  clear:both;
  height:80px;
 }
@@ -409,9 +410,13 @@ h5 {
 
 
 #upcoming-events article h1, #upcoming-events article p {
-	width: 200px;
+	width: 220px;
 	border: none !important;
 	float:right;
+}
+
+#upcoming-events article h1 {
+	margin-bottom: 5px !important;
 }
 
 #upcoming-events article h1 a {
@@ -434,8 +439,8 @@ h5 {
 
 /* Recent Blog Post */
 
-#lates-posts article {
- width: 270px;
+#latest-posts article {
+ width: 295px;
  clear: both;
  height:80px;
  
@@ -455,9 +460,13 @@ h5 {
 
 
 #latest-posts article h1, #latest-posts article p {
-	width: 190px;
+	width: 220px;
 	border: none !important;
 	float: right;
+}
+
+#latest-posts article h1 {
+		margin-bottom: 5px !important;
 }
 
 #latest-posts article h1 a {
@@ -477,6 +486,52 @@ h5 {
 		font-size:20px;
 		margin-top:4px;
 }
+
+/* Resources For */
+
+#resources-for article {
+ width: 295px;
+ clear: both;
+ height:80px;
+ 
+}
+
+
+
+#resources-for article .pic {
+	float: left;
+	width: 60px;
+	height: 80px; 
+	text-align: left;
+	font-size:13px;
+	padding-right:12px;
+
+}
+
+
+#resources-for article h1, #latest-posts article p {
+	width: 220px;
+	border: none !important;
+	float: right;
+}
+
+#resources-for article h1 {
+		margin-bottom: 5px !important;
+		margin-top:17px;
+}
+
+#resources-for article h1 a {
+	color:#333 !important;
+}
+
+#resources-for article h1 a:hover {
+	color: #9526AB !important;
+}
+
+#resources-for article p {
+	font-family:Arial, Helvetica;
+}
+
 
 /* ---- GLOBAL FOOTER ------------- */
 
