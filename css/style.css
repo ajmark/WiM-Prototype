@@ -57,7 +57,8 @@ a {
 
 p {
 	font-size: 0.8em;
-	font-weight:400;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:1.3em;
 }
 
 h1 {
@@ -120,7 +121,7 @@ h5 {
 }
 
 #main-nav li a {
-	font-size: 0.8em;
+	font-size: 0.9em;
     text-align: center;
     margin: 0 5px;
     display: block;
@@ -128,31 +129,37 @@ h5 {
     padding-bottom: 2px;
 }
 
-#home{
+#main-nav li:hover {
+	background-image: url(../img-sprites/menu-hoverbg.png);
+	background-position: left top;
+	background-repeat: repeat;
+}
+
+.nav-home{
 	background-color: #701c81;
 }
-#about{
+.nav-about{
 	background-color: #2a61c6;
 }
-#events{
+.nav-events{
 	background-color: #20b0e6;
 }
-#pdev{
+.nav-pdev{
 	background-color: #17a45c;
 }
-#resc{
+.nav-resc{
 	background-color: #83b805;
 }
-#members{
+.nav-members{
 	background-color: #dd9311;
 }
-#contact{
+.nav-contact{
 	background-color: #ac165e;
 }
 
 #fixed-bar{
 	background-color: #701c81;
-	height: 40px;
+	height: 46px;
 	width:100%;
 	position: absolute;
 	top:120px;
@@ -164,6 +171,7 @@ h5 {
 	width:100%;
 	margin-top:0px;
 	padding-top:0px;
+	margin-bottom:25px;
 }
 
 #active-tri.purple {
@@ -227,18 +235,34 @@ h5 {
 	color:#fff;
 }
 
-.dropdown li a:hover {
-	color:#C3C3C3;
-}
 
-#about:hover .dropdown, #events:hover .dropdown {
+
+.nav-about:hover .dropdown, .nav-events:hover .dropdown, .nav-pdev:hover .dropdown, .nav-resc:hover .dropdown, .nav-members:hover .dropdown {
 	display: block;
 	position:absolute;
-	top:40px;
+	top:46px;
+	border-top: 1px solid #fff;
 }
 
 .dropdown.drop-about {
 	background: #2a61c6;
+}
+
+
+.dropdown.drop-events {
+	background: #20b0e6;
+}
+
+.dropdown.drop-pdev {
+	background: #17a45c;
+}
+
+.dropdown.drop-resc {
+	background: #83b805;
+}
+
+.dropdown.drop-members {
+	background:#dd9311;
 }
 
 /**************************/
@@ -246,7 +270,7 @@ h5 {
 /**************************/
 
 #title {
-	padding-left: 60px;
+	padding-left: 30px;
 	padding-top: 24px;
 	float: left;
 }
@@ -286,7 +310,7 @@ h5 {
     display: block;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: #4f4f4f;
+    color: #000;
     font-weight: 300;
 }
 
@@ -309,28 +333,36 @@ h5 {
 /*   Index      */
 /**************************/
 
-#slide {
-	padding-top:25px;
-}
+
 
 #slide-info {
-    padding-top: 25px;
+    padding-top: 20px;
     position: absolute;
-    width: 180px;
-    padding-left:760px;
+    width: 190px;
+    padding-left:740px;
 }
 
-#slide-button {
-	padding: 8px;
+
+#slide-info H2 {
+	font-size: 1.2em;
+	font-weight: 400;
+	margin-bottom:10px;
+	
+}
+
+.slide-button {
+	padding: 6px;
+	margin-top:18px;
 	font-size:0.8em;
 	font-weight:400;
 	float: right;
 	color: white;
 	background-color: #886190;
 	border:1px white solid;
+	text-transform:uppercase;
 }
 
-#slide-button:hover {
+.slide-button:hover {
 	opacity:0.8;
 }
 
@@ -340,10 +372,65 @@ h5 {
 	padding:25px 15px 40px 0;
 }
 
+.info-column h1 {
+	margin-bottom:10px;
+}
+
 #slide-info p {
-	font-size: 0.6em;
-	font-weight:300;
+	font-size: 0.8em;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Upcoming Events */
+
+#upcoming-events article {
+ width: 270px;
+ clear:both;
+ height:80px;
 }
 
 
 
+#upcoming-events article .date {
+	float: left;
+	background: url(../img-sprites/calendar.png) top left no-repeat;
+	width: 60px;
+	height: 60px; 
+	text-align: center;
+	font-size:13px;
+
+}
+
+
+#upcoming-events article h1, #upcoming-events article p {
+	width: 200px;
+	border: none !important;
+	float:right;
+}
+
+#upcoming-events article h1 a {
+	color:#333 !important;
+}
+
+#upcoming-events article h1 a:hover {
+	color: #9526AB !important;
+}
+
+#upcoming-events article p {
+	font-family:Arial, Helvetica;
+}
+
+#upcoming-events article .date span {
+		display: block;
+		font-size:20px;
+		margin-top:4px;
+}
+
+/* ---- GLOBAL FOOTER ------------- */
+
+footer {
+	margin: 15px 0 30px 0;
+	font-family:Arial, Helvetica;
+	font-size:14px;
+	color: #666;
+}
