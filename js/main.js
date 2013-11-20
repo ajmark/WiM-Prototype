@@ -21,7 +21,7 @@ $(document).ready(function() {
 	$("#title").append("<h4>Allegheney Health Network<br><span>Women in Medicine</span></h4>");
 	// Creates the main nav bar
     $("header").append("<nav><ul id='main-nav'></ul></nav>");
-    $("#main-nav").append("<li class='nav-home'><a href='index.html'>Home</a></li>");
+    $("#main-nav").append("<li class='nav-home'><a href='../index.html'>Home</a></li>");
     $("#main-nav").append("<li class='nav-about'><a href='#'>About WiM</a></li>");
     $("#main-nav").append("<li class='nav-events'><a href='#'>Events</a></li>");
     $("#main-nav").append("<li class='nav-pdev'><a href='#'>Professional Development</a></li>");
@@ -30,15 +30,15 @@ $(document).ready(function() {
     $("#main-nav").append("<li class='nav-contact'><a href='#'>Contact Us</a></li>");
 	 
 	 
-	 var aboutDropdown = "<ul class='dropdown drop-about'><li><a href='mission.html'>Mission and History</a></li><li><a href='#'>Program Administrators</a></li></ul>";
+	var aboutDropdown = "<ul class='dropdown drop-about'><li><a href='../about/mission.html'>Mission and History</a></li><li><a href='../about/administrators.html'>Program Administrators</a></li></ul>";
 	 
-	 var eventsDropdown = "<ul class='dropdown drop-events'><li><a href='#'>Calendar of Events</a></li><li><a href='#'>Our Event Series</a></li></ul>";
+	var eventsDropdown = "<ul class='dropdown drop-events'><li><a href='../events/calendar.html'>Calendar of Events</a></li><li><a href='../events/service.html'>Our Event Series</a></li></ul>";
 	 
-	 	 var pdevDropdown = "<ul class='dropdown drop-pdev'><li><a href='#'>Career Opportunities</a></li><li><a href='#'>Scholarships</a></li></ul>";
+	var pdevDropdown = "<ul class='dropdown drop-pdev'><li><a href='../development/career.html'>Career Opportunities</a></li><li><a href='../development/scholarships.html'>Scholarships</a></li></ul>";
 		 
-		 	 var rescDropdown = "<ul class='dropdown drop-resc'><li><a href='#'>Recreation &amp; Wellness</a></li><li><a href='#'>Family Resources</a></li><li><a href='#'>Living in Pittsburgh</a></li><li><a href='#'>Personal Support Groups</a></li><li><a href='#'>Religious Organizations</a></li></ul>";
+	var rescDropdown = "<ul class='dropdown drop-resc'><li><a href='../resources/recreation.html'>Recreation &amp; Wellness</a></li><li><a href='../resources/family.html'>Family Resources</a></li><li><a href='../resources/pittsburgh.html'>Living in Pittsburgh</a></li><li><a href='../resources/support.html'>Personal Support Groups</a></li><li><a href='../resources/religious.html'>Religious Organizations</a></li></ul>";
 	 
-	 	 var membersDropdown = "<ul class='dropdown drop-members'><li><a href='#'>Member Directory</a></li><li><a href='#'>Join</a></li><li><a href='#'>Mentorship</a></li></ul>";
+	var membersDropdown = "<ul class='dropdown drop-members'><li><a href='#'>Member Directory</a></li><li><a href='#'>Join</a></li><li><a href='#'>Mentorship</a></li></ul>";
 	 
 	 
 	 $("#main-nav .nav-about").append(aboutDropdown);
