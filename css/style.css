@@ -118,6 +118,7 @@ h5 {
 	display: table-cell;
 	vertical-align: middle;
 	border-right:solid 1px white;
+	height:42px;
 }
 
 #main-nav li a {
@@ -125,8 +126,7 @@ h5 {
     text-align: center;
     margin: 0 5px;
     display: block;
-    padding-top: 2px;
-    padding-bottom: 2px;
+ 
 }
 
 #main-nav li:hover {
@@ -159,7 +159,7 @@ h5 {
 
 #fixed-bar{
 	background-color: #701c81;
-	height: 46px;
+	height: 42px;
 	width:100%;
 	position: absolute;
 	top:120px;
@@ -229,6 +229,8 @@ h5 {
 .dropdown li {
 	display: block !important;
 	border: none !important;
+	height: 24px !important;
+	line-height:24px;
 }
 .dropdown li a {
 	text-align:left !important;
@@ -240,7 +242,7 @@ h5 {
 .nav-about:hover .dropdown, .nav-events:hover .dropdown, .nav-pdev:hover .dropdown, .nav-resc:hover .dropdown, .nav-members:hover .dropdown {
 	display: block;
 	position:absolute;
-	top:46px;
+	top:42px;
 	border-top: 1px solid #fff;
 }
 
