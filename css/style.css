@@ -446,7 +446,7 @@ h5 {
 #latest-posts article .pic {
 	float: left;
 	width: 60px;
-	height: 60px; 
+	height: 80px; 
 	text-align: left;
 	font-size:13px;
 	padding-right:12px;
@@ -455,9 +455,9 @@ h5 {
 
 
 #latest-posts article h1, #latest-posts article p {
-	width: 200px;
+	width: 190px;
 	border: none !important;
-	float: left;
+	float: right;
 }
 
 #latest-posts article h1 a {
