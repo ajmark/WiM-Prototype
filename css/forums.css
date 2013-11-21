@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.side-nav p {
+	margin-left: 10px;
+	margin-top:15px;
+	color: #333;
+	margin-right: 10px;
+}
+
+.side-nav p a {
+	color: #47A5EE;	
+}
+.side-nav p a:hover {
+	color: #5EB8FF;	
+}
+
+.side-nav .input {
+	margin-left: 10px;
+	margin-top:5px;
+}
+
+#forums table {
+	color: #333;	
+}
+
+#forums table h3 {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	weight: normal;
+	
+}
+
+#forums table h3 a {
+	color: #4181DF;	
+}
