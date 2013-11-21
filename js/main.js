@@ -27,7 +27,7 @@ $(document).ready(function() {
     $("#main-nav").append("<li class='nav-pdev'><a href='#'>Professional Development</a></li>");
     $("#main-nav").append("<li class='nav-resc'><a href='#'>Community Resources</a></li>");
     $("#main-nav").append("<li class='nav-members'><a href='#'>Members</a></li>");
-    $("#main-nav").append("<li class='nav-contact'><a href='#'>Contact Us</a></li>");
+    $("#main-nav").append("<li class='nav-contact'><a href='../contact.html'>Contact Us</a></li>");
 	 
 	 
 	var aboutDropdown = "<ul class='dropdown drop-about'><li><a href='../about/mission.html'>Mission and History</a></li><li><a href='../about/administrators.html'>Program Administrators</a></li></ul>";
