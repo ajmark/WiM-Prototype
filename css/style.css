@@ -545,6 +545,184 @@ input.submit:hover {
 }
 
 
+/* ------ CALENDAR PAGE ----------- */
+
+.cal-filter {
+	width: 230px;
+	margin-bottom: 25px;
+}
+
+.cal-filter h1 {
+	display: block;
+	width: 220px;
+	padding: 8px 0 8px  10px;
+	background-color: #20b0e6;
+	font-size:13px;
+	font-weight:400;
+	color: #fff;
+}
+
+.cal-filter p, .cal-filter select, .cal-filter label {
+	margin-left: 10px;	
+}
+
+.cal-filter p {
+	margin-top:10px;
+	color: #333;
+	font-size:14px;	
+}
+
+.cal-filter .select {
+	background: #CBCBCB;
+	border: 1px solid #8EC3D6;
+	padding:4px;
+	font-size: 13px;
+	width: 80%;
+}
+
+.cal-filter label {
+	font-family:Arial, Helvetica;
+	font-size: 14px;
+	color: #333;
+	display:block;
+}
+
+
+/* -- Custom checkboxes --*/
+
+.cal-filter input[type=checkbox].css-checkbox {
+	position: absolute; 
+	overflow: hidden; 
+	clip: rect(0 0 0 0); 
+	height:1px; 
+	width:1px; 
+	margin:-1px; 
+	padding:0;
+	border:0;
+}
+
+.cal-filter input[type=checkbox].css-checkbox + label.css-label {
+	padding-left:20px;
+	height:17px; 
+	min-width:100px;
+	display:inline-block;
+	line-height:17px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.cal-filter input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -17px;
+}
+
+.cal-filter .css-label{ background-image:url(../img-sprites/checkbox.png); }
+
+
+/* Event Listings */
+
+.eventlist H1 .print {
+	float: right;
+}
+
+.eventlist H1 .print a {
+	color: #2C91B8;
+	font-size:13px;
+	font-family:Arial, Helvetica;
+}
+
+.eventlist H1 {
+	clear: both;
+}
+
+.eventlist .day {
+	width: auto;
+	background: #BBD2DB;
+	padding: 5px 0 5px 10px;
+	color: #333;
+	font-size:13px;
+}
+
+
+.eventlist .event {
+	clear: both;
+	overflow: hidden;	
+	padding-top:12px;
+}
+
+.eventlist .event + .event {
+	border-top: 1px solid #ccc;	
+}
+
+.eventlist .event img {
+	float: left;
+	width: 60px;
+	margin-right: 20px;
+	border: 1px solid #ccc;
+	
+}
+
+.eventlist .event H3, .eventlist .event p {
+	float: left;
+	width:590px;
+}
+
+.eventlist .event H3 {
+	font-weight: 500;
+	color: #000;
+	font-size: 16px;
+}
+
+.eventlist .event p {
+	font-size: 12px;
+}
+
+.eventlist .event p.readmore {
+	text-align: right;
+}
+
+.eventlist .event p.readmore a {
+	color: #2C9BC5;
+	font-size: 13px;
+	display: block;
+	margin: 5px 0 12px 0;
+	
+}
+
+.eventlist .event p.readmore a:hover {
+	color: #20b0e6;	
+}
+
+.eventlist .page {
+	
+	width: auto;
+	background: #ddd;
+	overflow: hidden;
+	clear: both;
+	margin-top:25px;
+	padding: 4px;
+	margin-bottom:20px;
+}
+
+.eventlist .page a {
+	color: #2C9BC5;
+	font-size: 13px;
+}
+
+.eventlist .page a:hover {
+	color: #20b0e6;
+}
+
+.eventlist .page .left {
+	float: left;
+}
+
+.eventlist .page .right {
+	float: right;
+}
+
 /* ---- GLOBAL FOOTER ------------- */
 
 footer {

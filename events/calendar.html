@@ -1,9 +1,10 @@
-<!Doctype HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 	<!-- Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../css/inside.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/inside.css" />
+   <link rel="stylesheet" media="print" type="text/css" href="../css/printcal.css" />
 	<!-- Javascripts -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="../js/main.js"></script>
@@ -18,25 +19,105 @@
 			<div id="active-tri" class="aqua"></div>
 			
 			<div class="page-content">
-				<div class="side-nav side-events">
-					<ul>
+				
+   
+   			<div class="side-nav side-events">
+     			
+            	<div class="cal-filter">
+            <h1>Calendar Filters</h1>
+            	<p>Select a month:</p>
+               <select name="months" class="select">
+               	<option value="November 2013">November 2013</option>
+                <option value="December 2013">December 2013</option>
+               	<option value="January 2014">January 2014</option>
+               	<option value="February 2014">February 2014</option>
+               	<option value="March 2014">March 2014</option>
+               	<option value="April 2014">April 2014</option>
+               	<option value="May 2014">May 2014</option>
+               </select>
+               
+               <p>Filter by type:</p>
+					               
+               <input id="box_1" class="css-checkbox" type="checkbox"/>
+					<label for="box_1" name="lbl_1" class="css-label">All</label>
+                              
+               <input id="box_2" class="css-checkbox" type="checkbox" />
+					<label for="box_2" name="lbl_2" class="css-label">Community Service Events</label>
+               
+               <input id="box_3" class="css-checkbox" type="checkbox" />
+					<label for="box_3" name="lbl_3" class="css-label">Meet &amp; Greets</label>
+               
+                <input id="box_4" class="css-checkbox" type="checkbox" />
+					<label for="box_4" name="lbl_4" class="css-label">Networking Lunches</label>
+               
+                <input id="box_5" class="css-checkbox" type="checkbox" />
+					<label for="box_5" name="lbl_5" class="css-label">Speaker Series</label>
+            
+               
+            </div>       
+				
+            
+            	<ul>
 						<li class="side-title nav-events">Events</li>
 						<li class="active"><a href="#">Calendar of Events</a></li>
-						<li><a href="service.html">Community Service Events</a></li>
-						<li><a href="meetgreet.html">Meet &#38; Greet</a></li>
-						<li><a href="networking.html">Networking Lunch Series</a></li>
-						<li><a href="speaker.html">Speaker Series</a></li>
+						<li><a href="types.html">Our Event Series</a></li>
+					
 					</ul>
 				</div>
-				<div class="inside-content">
-					<h1>Calendar of Events</h1>
+				<div class="inside-content eventlist">
+					<h1>November 2013 <span class="print"><a href="#" onClick="window.print();return false"><img src="../img-sprites/printer.png" /> Print</a></h1>
 					<br>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						
+                  <div class="day">
+                  Friday, November 1
+                  </div>
+                  	<div class="event">
+                   	<img src="../assets/doctor-thumb.png" alt="Guest Speaker" />
+                     	<h3> Event Title</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </p>
+                      <p class="readmore"><a href="#">Read More...</a></p>
+                   </div>
+                   
+                   
+                   
+                    <div class="day">
+                  Tuesday, November 5
+                  </div>
+                  	<div class="event">
+                   	<img src="../assets/doctor-thumb.png" alt="Guest Speaker" />
+                     	<h3> Event Title</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                      </p>
+                      <p class="readmore"><a href="#">Read More...</a></p>
+                   </div>
+                  <div class="event">
+                   	<img src="../assets/doctor-thumb.png" alt="Guest Speaker" />
+                     	<h3> Event Title</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipisicing.
+                      </p>
+                      <p class="readmore"><a href="#">Read More...</a></p>
+                   </div>
+                  
+               <div class="day">
+                  Friday, November 28
+                  </div>
+                  	<div class="event">
+                   	<img src="../assets/doctor-thumb.png" alt="Guest Speaker" />
+                     	<h3> Event Title</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                      </p>
+                      <p class="readmore"><a href="#">Read More...</a></p>
+                   </div>
+                  
+                  
+                  <div class="page">
+                  	<span class="left"><a href="#">&laquo; Prev Month</a></span>
+                    <span class="right"><a href="#">Next Month &raquo;</a></span>
+                  </div>
+                      
+                  
+                  
 				</div>
 			</div>
 		</div>
