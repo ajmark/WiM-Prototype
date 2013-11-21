@@ -38,7 +38,7 @@ $(document).ready(function() {
 		 
 	var rescDropdown = "<ul class='dropdown drop-resc'><li><a href='../resources/recreation.html'>Recreation &amp; Wellness</a></li><li><a href='../resources/family.html'>Family Resources</a></li><li><a href='../resources/pittsburgh.html'>Living in Pittsburgh</a></li><li><a href='../resources/support.html'>Personal Support Groups</a></li><li><a href='../resources/religious.html'>Religious Organizations</a></li></ul>";
 	 
-	var membersDropdown = "<ul class='dropdown drop-members'><li><a href='#'>Member Directory</a></li><li><a href='#'>Join</a></li><li><a href='#'>Mentorship</a></li></ul>";
+	var membersDropdown = "<ul class='dropdown drop-members'><li><a href='../members/directory.html'>Member Directory</a></li><li><a href='#'>Join</a></li><li><a href='../members/mentorship.html'>Mentorship</a></li></ul>";
 	 
 	 
 	 $("#main-nav .nav-about").append(aboutDropdown);
