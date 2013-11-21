@@ -1,0 +1,39 @@
+.blog-pic {
+    position:relative;
+    float:left;
+}
+
+.preview-block {
+    padding-top:50px;
+    overflow:hidden;
+}
+
+.preview-info {
+    position:relative;
+    float:left;
+    width:320px;
+    padding-left:30px;
+}
+
+.preview-info h1 {
+    border-bottom: none;
+    font-weight:700;
+}
+
+.preview-info h2 {
+    font-weight:300;
+    font-style:italic;
+    color: #bdbdbd;
+    font-size:12px;
+}
+
+.preview-info a {
+    color:#2a61c6;
+    font-style:italic;
+    font-size: 12px;
+    float:right;
+}
+
+.preview-info a:hover {
+    color:#333333;
+}
