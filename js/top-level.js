@@ -16,7 +16,9 @@ $(document).ready(function() {
 	$("#search").append("<input type='text' class='input' placeholder='Search...'>");
 	//Creates the logo
 	$("header").append("<div id='logo'></div>");
-	$("#logo").append("<img src='img-sprites/logo.gif'>");
+	
+		$("#logo").append("<a href='index.html'><img src='img-sprites/logo.gif' alt='Allegheny Health Network Women in Medicine Group'></a>");
+	
 	$("#logo").append("<div id='title'></div>");
 	$("#title").append("<h4>Allegheney Health Network<br><span>Women in Medicine</span></h4>");
 	// Creates the main nav bar
