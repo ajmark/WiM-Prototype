@@ -10,7 +10,7 @@ $(document).ready(function() {
 	$("#top-nav").append("<li><a href='#'>Member Login</a></li>");
 	$("#top-nav").append("<li><a href='#'>Join</a></li>");
 	$("#top-nav").append("<li><a href='#'>Forums</a></li>");
-	$("#top-nav").append("<li><a href='#'>Blog</a></li>");
+	$("#top-nav").append("<li><a href='../interact/blog.html'>Blog</a></li>");
 	//Creates search bar
 	$("header").append("<form id='search'></form>");
 	$("#search").append("<input type='text' class='input' placeholder='Search...'>");
