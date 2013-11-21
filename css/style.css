@@ -621,8 +621,101 @@ input.submit:hover {
 .cal-filter .css-label{ background-image:url(../img-sprites/checkbox.png); }
 
 
+/* Event Listings */
+
+.eventlist H1 .print {
+	float: right;
+}
+
+.eventlist H1 {
+	clear: both;
+}
+
+.eventlist .day {
+	width: auto;
+	background: #BBD2DB;
+	padding: 5px 0 5px 10px;
+	color: #333;
+	font-size:13px;
+}
 
 
+.eventlist .event {
+	clear: both;
+	overflow: hidden;	
+	padding-top:12px;
+}
+
+.eventlist .event + .event {
+	border-top: 1px solid #ccc;	
+}
+
+.eventlist .event img {
+	float: left;
+	width: 60px;
+	margin-right: 20px;
+	border: 1px solid #ccc;
+	
+}
+
+.eventlist .event H3, .eventlist .event p {
+	float: left;
+	width:590px;
+}
+
+.eventlist .event H3 {
+	font-weight: 500;
+	color: #000;
+	font-size: 16px;
+}
+
+.eventlist .event p {
+	font-size: 12px;
+}
+
+.eventlist .event p.readmore {
+	text-align: right;
+}
+
+.eventlist .event p.readmore a {
+	color: #2C9BC5;
+	font-size: 13px;
+	display: block;
+	margin: 5px 0 12px 0;
+	
+}
+
+.eventlist .event p.readmore a:hover {
+	color: #20b0e6;	
+}
+
+.eventlist .page {
+	
+	width: auto;
+	background: #ddd;
+	overflow: hidden;
+	clear: both;
+	margin-top:25px;
+	padding: 4px;
+	margin-bottom:20px;
+}
+
+.eventlist .page a {
+	color: #2C9BC5;
+	font-size: 13px;
+}
+
+.eventlist .page a:hover {
+	color: #20b0e6;
+}
+
+.eventlist .page .left {
+	float: left;
+}
+
+.eventlist .page .right {
+	float: right;
+}
 
 /* ---- GLOBAL FOOTER ------------- */
 
