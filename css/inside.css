@@ -19,6 +19,7 @@
 .side-nav ul {
 	display: table;
 	table-layout:fixed;
+	width:230px;
 }
 
 .side-nav ul li {
