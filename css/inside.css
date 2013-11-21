@@ -83,3 +83,27 @@
 	font-size:14px;
 	line-height:18px;
 }
+
+.inside-content a {
+	color: #	4095F2;
+}
+
+
+.inside-content a:hover {
+	color: #5DA9FC;	
+}
+
+
+.side-nav ul p {
+	color: #333;
+	margin: 10px;
+}
+
+.side-nav ul p a {
+	color: #4095F2;	
+}
+
+.side-nav ul p a:hover {
+	color: #5DA9FC;
+}
+

@@ -7,9 +7,9 @@ $(document).ready(function() {
 	$("header").append("<div id='interact'></div>");
 	$("#interact").append("<h5>Interact:</h5>");
 	$("#interact").append("<ul id='top-nav'></ul");
-	$("#top-nav").append("<li><a href='#'>Member Login</a></li>");
+	$("#top-nav").append("<li><a href='interact/login.html'>Member Login</a></li>");
 	$("#top-nav").append("<li><a href='#'>Join</a></li>");
-	$("#top-nav").append("<li><a href='#'>Forums</a></li>");
+	$("#top-nav").append("<li><a href='interact/forums.html'>Forums</a></li>");
 	$("#top-nav").append("<li><a href='interact/blog.html'>Blog</a></li>");
 	//Creates search bar
 	$("header").append("<form id='search'></form>");
