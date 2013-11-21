@@ -23,7 +23,7 @@ $(document).ready(function() {
     $("header").append("<nav><ul id='main-nav'></ul></nav>");
     $("#main-nav").append("<li class='nav-home'><a href='../index.html'>Home</a></li>");
     $("#main-nav").append("<li class='nav-about'><a href='#'>About WiM</a></li>");
-    $("#main-nav").append("<li class='nav-events'><a href='#'>Events</a></li>");
+    $("#main-nav").append("<li class='nav-events'><a href='../events/calendar.html'>Events</a></li>");
     $("#main-nav").append("<li class='nav-pdev'><a href='#'>Professional Development</a></li>");
     $("#main-nav").append("<li class='nav-resc'><a href='#'>Community Resources</a></li>");
     $("#main-nav").append("<li class='nav-members'><a href='#'>Members</a></li>");
@@ -32,7 +32,7 @@ $(document).ready(function() {
 	 
 	var aboutDropdown = "<ul class='dropdown drop-about'><li><a href='../about/mission.html'>Mission and History</a></li><li><a href='../about/administrators.html'>Program Administrators</a></li></ul>";
 	 
-	var eventsDropdown = "<ul class='dropdown drop-events'><li><a href='../events/calendar.html'>Calendar of Events</a></li><li><a href='../events/service.html'>Our Event Series</a></li></ul>";
+	var eventsDropdown = "<ul class='dropdown drop-events'><li><a href='../events/calendar.html'>Calendar of Events</a></li><li><a href='../events/types.html'>Our Event Series</a></li></ul>";
 	 
 	var pdevDropdown = "<ul class='dropdown drop-pdev'><li><a href='../development/career.html'>Career Opportunities</a></li><li><a href='../development/scholarships.html'>Scholarships</a></li></ul>";
 		 

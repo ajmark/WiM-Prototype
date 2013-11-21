@@ -627,6 +627,12 @@ input.submit:hover {
 	float: right;
 }
 
+.eventlist H1 .print a {
+	color: #2C91B8;
+	font-size:13px;
+	font-family:Arial, Helvetica;
+}
+
 .eventlist H1 {
 	clear: both;
 }
