@@ -14,7 +14,7 @@
 	color: #5EB8FF;	
 }
 
-.side-nav .input {
+.side-nav input {
 	margin-left: 10px;
 	margin-top:5px;
 }
@@ -23,6 +23,24 @@
 	color: #333;	
 }
 
+#forums table th {
+	font-size: 14px;
+	font-weight: normal;
+	background: #BBBBBB;
+	padding: 5px;	
+}
+
+#forums table th.category {
+	width: 250px;	
+}
+
+#forums table td {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;	
+}
+
+
+
 #forums table h3 {
 	font-size: 13px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +48,21 @@
 	
 }
 
-#forums table h3 a {
+#forums table a {
 	color: #4181DF;	
+}
+
+#forums table a:hover {
+	color: #5399FF;	
+}
+#forums table td, #forums table td p {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#forums table td.num {
+	text-align: center;	
+}
+
+#forums table td span.date {
+	display: block;
 }
