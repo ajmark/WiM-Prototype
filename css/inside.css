@@ -39,11 +39,29 @@
 	background:#CBCBCB;
 }
 
-.side-nav ul li + li:hover a {
-	color: #000;	
+.side-about ul li + li:hover a {
+	color: #2a61c6;	
 }
 
+.side-pdev ul li + li:hover a {
+	color: #17a45c;	
+}
 
+.side-events ul li + li:hover a {
+	color: #20b0e6;	
+}
+
+.side-resc ul li + li:hover a {
+	color: #83b805;	
+}
+
+.side-members ul li + li:hover a {
+	color: #dd9311;	
+}
+
+.side-contact ul li + li:hover a {
+	color: #ac165e;	
+}
 
 .inside-content {
 	width: 600px;
