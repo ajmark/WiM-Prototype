@@ -32,7 +32,7 @@ $(document).ready(function() {
 	 
 	var aboutDropdown = "<ul class='dropdown drop-about'><li><a href='../about/mission.html'>Mission and History</a></li><li><a href='../about/administrators.html'>Program Administrators</a></li></ul>";
 	 
-	var eventsDropdown = "<ul class='dropdown drop-events'><li><a href='../events/calendar.html'>Calendar of Events</a></li><li><a href='../events/types.html'>Our Event Series</a></li></ul>";
+	var eventsDropdown = "<ul class='dropdown drop-events'><li><a href='../events/calendar.html'>Calendar of Events</a></li><li><a href='../events/pastevents.html'>Past Events</a></li></ul>";
 	 
 	var pdevDropdown = "<ul class='dropdown drop-pdev'><li><a href='../development/career.html'>Career Opportunities</a></li><li><a href='../development/scholarships.html'>Scholarships</a></li></ul>";
 		 

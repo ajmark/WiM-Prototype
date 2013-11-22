@@ -2,6 +2,12 @@
 /*   General Inside Layout      */
 /**************************/
 
+.contentphoto {
+	float: right;
+	max-width: 200px;
+	margin-left: 20px;	
+}
+
 .inside-content {
 	margin-bottom:40px;
 }
@@ -134,4 +140,16 @@
 #mission-pic {
     float:right;
     margin-left:40px;
+}
+
+/* Past Events Accordion */
+#accordion h2 {
+	margin-top:15px;
+	font-size:16px;
+	color: #20B0E6;
+}
+
+#accordion p {
+	font-size: 12px;
+	line-height: 16px;	
 }
