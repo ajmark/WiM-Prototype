@@ -44,7 +44,7 @@ br {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #4095F2;
 }
 
 
@@ -143,6 +143,7 @@ input.submit:hover {
     text-align: center;
     margin: 0 5px;
     display: block;
+	 color: #fff;
  
 }
 
