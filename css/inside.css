@@ -5,8 +5,14 @@
 .inside-content {
 	margin-bottom:40px;
 }
+
 .input.large {
   padding-left:10px;
+}
+
+#join input {
+    margin-right:15px;
+    margin-bottom:20px;
 }
 
 .side-nav {
