@@ -95,7 +95,7 @@
 }
 
 .inside-content a {
-	color: #	4095F2;
+	color: #4095F2;
 }
 
 
@@ -119,4 +119,13 @@
 
 .cal-filter.members H1 {
 	background-color: #dd9311;	
+}
+
+.banner {
+    padding-bottom: 20px;
+}
+
+#mission-pic {
+    float:right;
+    margin-left:40px;
 }
