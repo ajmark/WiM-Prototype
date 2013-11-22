@@ -96,7 +96,7 @@
 .inside-content h2 {
     color: #585858;
     padding-bottom:20px;
-    font-size:24px;
+    font-size:20px;
 }
 
 .inside-content p {
@@ -152,4 +152,14 @@
 #accordion p {
 	font-size: 12px;
 	line-height: 16px;	
+}
+
+#contact-info {
+    float:left;
+    width:400px;
+}
+
+#map {
+    float:right;
+    padding-top:30px;
 }
