@@ -87,6 +87,12 @@
 	width: 100%;
 }
 
+.inside-content h2 {
+    color: #585858;
+    padding-bottom:20px;
+    font-size:24px;
+}
+
 .inside-content p {
 	color: #333;
 	font-family:Arial, Helvetica;
