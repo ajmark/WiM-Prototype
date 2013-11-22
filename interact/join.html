@@ -21,8 +21,8 @@
 			<div class="page-content">
 				<div class="side-nav side-about">
 					<ul>
-						<li class="side-title nav-interact">Please Log In</li>
-                  <br>
+						<li class="side-title nav-interact">Existing Member?</li>
+                  <p>Log in below:</p>
                   <input class="input large" type="text" placeholder="username" />
                   <input class="input large" type="password" placeholder="password" /><br />
 							<input type="submit" value="Sign In" class="submit">                  
@@ -32,19 +32,39 @@
 				
 				<div class="inside-content">
 					<h1>Join Today!</h1>
+               
+               <p><br />Creating an account is fast and easy. Fill in the form below to begin. Once your account is approved, you will receive an email notification, and will be able to log in to the members area of our site.</p>
+               
 					<br>
 					  <form id="join">
                <input type="text" class="input large" placeholder="First Name" />
                <input type="text" class="input large" placeholder="Last Name" /><br>
-               <input type="text" class="input large" placeholder="Specialty" />
+              <select name="months"  class="input large select" style="margin-right:27px;">
+                <option value="All">Select a Specialty</option>
+
+                <option value="Cardiology">Cardiology</option>
+                  	<option value="Dermatology">Dermatology</option>
+               	<option value="Gynaecology">Gynaecology</option>
+               	<option value="Oncology">Oncology</option>
+                <option value="Orthopedic">Orthopedics</option>
+               	<option value="Pediatrics">Pediatrics</option>
+               	<option value="Urology">Urology</option>
+             
+               </select>
                <input type="text" class="input large" placeholder="Birthday" /><br>
                <input type="text" class="input large" placeholder="Email" />
                <input type="text" class="input large" placeholder="Email" /><br>
                <input type="text" class="input large" placeholder="Password" />
-               <input type="text" class="input large" placeholder="Confirm Passowrd" /><br>
+               <input type="text" class="input large" placeholder="Confirm Password" /><br>
+               
+               
+               <h4>Demographic Information (optional)</h4>
+               <br />
+                              <input type="text" class="input large" placeholder="Confirm Passowrd" /><br>
+
             
                <br>
-               <input type="submit" class="submit" value="Submit" />
+               <input type="submit" class="submit" style="font-size:15px; padding: 8px;" value="Submit" />
             </form>
 				</div>
 			</div>
