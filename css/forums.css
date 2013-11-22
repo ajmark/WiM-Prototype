@@ -66,3 +66,9 @@
 #forums table td span.date {
 	display: block;
 }
+
+label.join {
+	color: #333;
+	font-size: 12px;
+	display: block;	
+}
