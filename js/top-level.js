@@ -8,7 +8,7 @@ $(document).ready(function() {
 	$("#interact").append("<h5>Interact:</h5>");
 	$("#interact").append("<ul id='top-nav'></ul");
 	$("#top-nav").append("<li><a href='interact/login.html'>Member Login</a></li>");
-	$("#top-nav").append("<li><a href='#'>Join</a></li>");
+	$("#top-nav").append("<li><a href='interact/join.html'>Join</a></li>");
 	$("#top-nav").append("<li><a href='interact/forums.html'>Forums</a></li>");
 	$("#top-nav").append("<li><a href='interact/blog.html'>Blog</a></li>");
 	//Creates search bar
@@ -24,11 +24,11 @@ $(document).ready(function() {
 	// Creates the main nav bar
     $("header").append("<nav><ul id='main-nav'></ul></nav>");
     $("#main-nav").append("<li class='nav-home'><a href='index.html'>Home</a></li>");
-    $("#main-nav").append("<li class='nav-about'><a href='#'>About WiM</a></li>");
+    $("#main-nav").append("<li class='nav-about'><a href='about/mission.html'>About WiM</a></li>");
     $("#main-nav").append("<li class='nav-events'><a href='events/calendar.html'>Events</a></li>");
-    $("#main-nav").append("<li class='nav-pdev'><a href='#'>Professional Development</a></li>");
-    $("#main-nav").append("<li class='nav-resc'><a href='#'>Community Resources</a></li>");
-    $("#main-nav").append("<li class='nav-members'><a href='#'>Members</a></li>");
+    $("#main-nav").append("<li class='nav-pdev'><a href='development/careers.html'>Professional Development</a></li>");
+    $("#main-nav").append("<li class='nav-resc'><a href='resources/recreation.html'>Community Resources</a></li>");
+    $("#main-nav").append("<li class='nav-members'><a href='members/directory.html'>Members</a></li>");
     $("#main-nav").append("<li class='nav-contact'><a href='contact.html'>Contact Us</a></li>");
 	 
 	 
@@ -50,7 +50,7 @@ $(document).ready(function() {
 	 $("#main-nav .nav-members").append(membersDropdown);
 
 
-	var footer = "<div class='copyright'>&copy; 2013 Allegheny Health Network. All Rights Reserved. <br /><a href='#'>Privacy Policy</a>  |  <a href='#'>Site Map</a>  |  <a href='#'>Contact Us</a></div>";
+	var footer = "<div class='copyright'>&copy; 2013 Allegheny Health Network. All Rights Reserved. <br /><a href='#'>Privacy Policy</a>  |  <a href='#'>Site Map</a>  |  <a href='contact.html'>Contact Us</a></div>";
 	
 	var footNewsletter = "<div class='newsletter'>Join our newsletter:&nbsp;&nbsp;&nbsp;<input type='text' class='input' placeholder='Your Name' /><input type='text' class='input' placeholder='Your Email' /><input type='submit' class='submit' value='Join' /></div>";
 	
