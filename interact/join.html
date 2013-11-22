@@ -3,7 +3,8 @@
 <head>
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-  <link rel="stylesheet" type="text/css" href="../css/inside.css" />
+  <link rel="stylesheet" type="text/css" href="../css/inside.css">
+  <link rel="stylesheet" type="text/css" href="../css/forums.css" />
 	<!-- Javascripts -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="../js/main.js"></script>
@@ -18,21 +19,13 @@
 			<div id="active-tri"></div>
 
 			<div class="page-content">
-         <div class="side-nav side-about">
+				<div class="side-nav side-about">
 					<ul>
-						<li class="side-title nav-interact">Not a member?</li>
-						<p>Join the Women in Medicine group today for:
-                 <br />
-                  	<br />Special event invitations
-                   <br />Monthly luncheons
-                   <br />Full access to our web forums
-                   <br />Full access to our web member directory
-                   
-                  </p>
-                  
-                  <p><b><a href="join.html">Click here to join!</a></b></p>
-                  
-                                
+						<li class="side-title nav-interact">Please Log In</li>
+                  <br>
+                  <input class="input large" type="text" placeholder="username" />
+                  <input class="input large" type="password" placeholder="password" /><br />
+							<input type="submit" value="Sign In" class="submit">                  
 					</ul>
 				</div>
          
@@ -40,19 +33,19 @@
 				<div class="inside-content">
 					<h1>JOIN</h1>
 					<br>
-					
-               <input type="text" class="input large" placeholder="Username" />&nbsp;
-               <input type="password" class="input large" placeholder="Password" />
-               <input type="submit" class="submit" value="Sign In" />
-               <br /><br />
-               <p><a href="#">Forgot password?</a></p>
-               
-               
-               
-               
-               
-               
-               
+					  <form id="join">
+               <input type="text" class="input large" placeholder="First Name" />
+               <input type="text" class="input large" placeholder="Last Name" /><br>
+               <input type="text" class="input large" placeholder="Specialty" />
+               <input type="text" class="input large" placeholder="Birthday" /><br>
+               <input type="text" class="input large" placeholder="Email" />
+               <input type="text" class="input large" placeholder="Email" /><br>
+               <input type="text" class="input large" placeholder="Password" />
+               <input type="text" class="input large" placeholder="Confirm Passowrd" /><br>
+            
+               <br>
+               <input type="submit" class="submit" value="Submit" />
+            </form>
 				</div>
 			</div>
 		</div>
