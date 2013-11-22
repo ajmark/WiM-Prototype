@@ -650,6 +650,12 @@ input.submit:hover {
 	font-size:13px;
 }
 
+.eventlist.dir .day {
+	background: #EDD09E;
+}
+
+
+
 
 .eventlist .event {
 	clear: both;
@@ -700,6 +706,15 @@ input.submit:hover {
 	color: #20b0e6;	
 }
 
+
+.eventlist.dir .event p.readmore a, .eventlist.dir .page a {
+	color: #D28B0D;
+}
+
+.eventlist.dir .event p.readmore a:hover, .eventlist.dir .page a:hover {
+	color: #EAA62F;	
+}
+
 .eventlist .page {
 	
 	width: auto;
@@ -721,6 +736,8 @@ input.submit:hover {
 .eventlist .page a:hover {
 	color: #20b0e6;
 }
+
+
 
 .eventlist .page .left {
 	float: left;
