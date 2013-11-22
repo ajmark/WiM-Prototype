@@ -4,6 +4,8 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" type="text/css" href="../css/inside.css">
+     <link rel="stylesheet" media="print" type="text/css" href="../css/printcal.css" />
+
 	<!-- Javascripts -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="../js/main.js"></script>
@@ -19,23 +21,117 @@
 
 			<div class="page-content">
 				<div class="side-nav side-members">
+                 			
+            <div class="cal-filter members">
+            <h1>Member Directory Filters</h1>
+            	<p>Filter by specialty:</p>
+               <select name="months" class="select">
+                <option value="All">All</option>
+
+                <option value="Cardiology">Cardiology</option>
+                  	<option value="Dermatology">Dermatology</option>
+               	<option value="Gynaecology">Gynaecology</option>
+               	<option value="Oncology">Oncology</option>
+                <option value="Orthopedic">Orthopedics</option>
+               	<option value="Pediatrics">Pediatrics</option>
+               	<option value="Urology">Urology</option>
+             
+               </select>
+               
+               <p>Filter by career level:</p>
+					               
+               <input id="box_1" class="css-checkbox" type="checkbox"/>
+					<label for="box_1" name="lbl_1" class="css-label">All</label>
+                              
+               <input id="box_2" class="css-checkbox" type="checkbox" />
+					<label for="box_2" name="lbl_2" class="css-label">Physicians</label>
+               
+               <input id="box_3" class="css-checkbox" type="checkbox" />
+					<label for="box_3" name="lbl_3" class="css-label">Residents</label>
+               
+                <input id="box_4" class="css-checkbox" type="checkbox" />
+					<label for="box_4" name="lbl_4" class="css-label">Medical Students</label>
+               
+             
+            
+               
+            </div>       
+				
+            
+            
+            
 					<ul>
 						<li class="side-title nav-members">Members</li>
 						<li class="active"><a href="#">Member Directory</a></li>
-						<li><a href="#">Join</a></li>
+						<li><a href="../interact/join.html">Join</a></li>
 						<li><a href="mentorship.html">Mentorship</a></li>
 					</ul>
 				</div>
-				<div class="inside-content">
-					<h1>Member Directory</h1>
+				
+            
+            <div class="inside-content eventlist">
+					<h1>Member Directory <span class="print"><a href="#" onClick="window.print();return false"><img src="../img-sprites/printer.png" /> Print</a></span></h1>
 					<br>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
+						
+                  <div class="day">
+                  A
+                  </div>
+                  	<div class="event">
+                   	<img src="../assets/doctor-thumb.png" alt="Guest Speaker" />
+                     	<h3> Lisa Abbott</h3>
+                      <p>Oncology - Allegheny General</p>
+                      </p>
+                      <p class="readmore"><a href="#" >Read Profile...</a></p>
+                   </div>
+                   
+                   <div class="day">
+                  B
+                  </div>
+                  	<div class="event">
+                   	<img src="../assets/doctor-thumb.png" alt="Guest Speaker" />
+                     	<h3> Joan Barnett</h3>
+                      <p>Pediatrics - West Penn Allegheny</p>
+                      </p>
+                      <p class="readmore"><a href="#" >Read Profile...</a></p>
+                   </div>
+                   	<div class="event">
+                   	<img src="../assets/doctor-thumb.png" alt="Guest Speaker" />
+                     	<h3> Marsha Barrea</h3>
+                      <p>Dermatology - West Penn Allegheny</p>
+                      </p>
+                      <p class="readmore"><a href="#" >Read Profile...</a></p>
+                   </div>
+                   
+                  <div class="day">
+                  C
+                  </div>
+                  	<div class="event">
+                   	<img src="../assets/doctor-thumb.png" alt="Guest Speaker" />
+                     	<h3> Jamie Cox</h3>
+                      <p>Cardiology - Allegheny General</p>
+                      </p>
+                      <p class="readmore"><a href="#" >Read Profile...</a></p>
+                   </div>
+                   	<div class="event">
+                   	<img src="../assets/doctor-thumb.png" alt="Guest Speaker" />
+                     	<h3> Sarah Crawford</h3>
+                      <p>Gynaecology - Jefferson Hospital</p>
+                      </p>
+                      <p class="readmore"><a href="#" >Read Profile...</a></p>
+                   </div>                   
+                   
+                   
+                   
+                  
+                  
+                  <div class="page">
+                  	<span class="left">&laquo; Prev Page</a></span>
+                    <span class="right"><a href="#">Next Page &raquo;</a></span>
+                  </div>
+                      
+                  </div>
+            
+            
 			</div>
 		</div>
 	</div>

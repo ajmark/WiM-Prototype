@@ -709,6 +709,8 @@ input.submit:hover {
 	margin-top:25px;
 	padding: 4px;
 	margin-bottom:20px;
+	color: #858585;
+	font-size: 13px;
 }
 
 .eventlist .page a {
