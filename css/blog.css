@@ -25,6 +25,7 @@
     font-style:italic;
     color: #bdbdbd;
     font-size:12px;
+	 padding-bottom: 5px !important;
 }
 
 .preview-info a {
