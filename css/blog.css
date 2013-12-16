@@ -21,9 +21,8 @@
 }
 
 .preview-info h2 {
-    font-weight:300;
-    font-style:italic;
-    color: #bdbdbd;
+    font-weight:400;
+    color: #888;
     font-size:12px;
 	 padding-bottom: 5px !important;
 }

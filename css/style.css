@@ -105,12 +105,17 @@ h5 {
 }
 
 input.submit {
-	
 	border: 1px solid #999;
 	background: #A0BBC9;
 	color: #333;
-	padding: 4px;
+	padding: 0 4px 0 4px;
+	height:
 }
+
+input.big {
+	height: 35px;
+}
+
 
 
 input.submit:hover {
@@ -343,14 +348,27 @@ input.submit:hover {
 	padding-top:50px;
 }
 
-#search input {
+#search .input {
 	padding-left: 15px
 }
 
-.input {
+input {
 	border: 1px solid #afafaf;
-	height:25px;
+	height: 28px;
 }
+
+#search .searchbtn {
+	
+	height: 30px;
+	background: #A0BBC9;
+	border-left: 0px;
+	padding: 0 2px 0 2px;
+}
+
+#search .searchbtn:hover {
+	background-color: #CFE5F1;
+}
+
 
 /**************************/
 /*   Index      */
@@ -398,6 +416,22 @@ input.submit:hover {
 
 .info-column h1 {
 	margin-bottom:10px;
+}
+
+
+.info-column article h1 {
+	font-size:15px;
+	font-weight: 400;
+	line-height:18px;	
+}
+
+.info-column a.morelink {
+	float: left;
+	font-size:13px;
+}
+
+.info-column a.morelink:hover {
+	color: #1A75D8;
 }
 
 #slide-info p {
@@ -697,8 +731,8 @@ input.submit:hover {
 .eventlist .event p.readmore a {
 	color: #2C9BC5;
 	font-size: 13px;
-	display: block;
 	margin: 5px 0 12px 0;
+	display:inline-block
 	
 }
 
@@ -715,7 +749,7 @@ input.submit:hover {
 	color: #EAA62F;	
 }
 
-.eventlist .page {
+.page {
 	
 	width: auto;
 	background: #ddd;
@@ -728,22 +762,22 @@ input.submit:hover {
 	font-size: 13px;
 }
 
-.eventlist .page a {
+ .page a {
 	color: #2C9BC5;
 	font-size: 13px;
 }
 
-.eventlist .page a:hover {
+ .page a:hover {
 	color: #20b0e6;
 }
 
 
 
-.eventlist .page .left {
+.left {
 	float: left;
 }
 
-.eventlist .page .right {
+ .right {
 	float: right;
 }
 
@@ -790,3 +824,69 @@ footer .newsletter input.input:focus {
 	color: #333;
 }
 
+
+/* BACK TO TOP */
+.back-to-top {
+	position: fixed;
+	bottom: 2em;
+	right: 0px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #808080;
+	font-size: 13px;
+	padding: 1em;
+	display: none;
+}
+
+.back-to-top:hover {	
+	background-color: rgba(135, 135, 135, 0.50);
+}	
+
+/* Dashboard ------------------------- */
+.dashboard-left {
+	float: left;
+	width: 175px;
+	margin:0 0 40px 0;
+	background: #ddd;
+	border: 1px solid #ccc;
+	padding:8px;
+	text-align:center;
+	
+}
+
+.dashboard-left .button {
+	padding: 6px;
+	display:block;
+	margin-top:8px;
+	font-size:0.7em;
+	font-weight:400;
+	color: white;
+	background-color: #886190;
+	border:1px white solid;
+	text-transform:uppercase;
+}
+
+.dashboard-left .button:hover {
+	color: #fff;
+	background-color: #A774BD;
+}
+
+.dashboard-table {
+	font-size: 13px;
+	color: #333;
+	width: 100%;	
+	border-spacing:0;
+    border-collapse:collapse;
+}
+
+.dashboard-table th {
+	background: #ccc;	
+	text-align: left; 
+	padding: 8px;
+}
+
+
+.dashboard-table tr td  {
+	border-bottom: 1px solid #ccc;
+	padding: 4px;
+}
